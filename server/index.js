@@ -7,7 +7,11 @@ var Contact = require('./models/Contact')
 
 connection();
  
-app.use(cors())
+app.use(cors({
+ origin: ["https://uxflow-test-task-client.vercel.app/"],
+ methos: ["POST", "GET"],
+ credential: true
+}))
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
  

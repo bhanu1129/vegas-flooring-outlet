@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100;
+}
+
+.nav-a {
+  @apply text-white text-lg font-semibold bg-blue-600 py-3 px-7 rounded-full cursor-pointer;
+}

@@ -9,8 +9,8 @@ connection();
  
 app.use(cors({
  origin: ["https://uxflow-test-task-client.vercel.app/"],
- methos: ["POST", "GET"],
- credential: true
+ methods: ["POST", "GET"],
+ credentials: true
 }))
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())

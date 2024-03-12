@@ -10,7 +10,7 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const response = await fetch(`https://uxflow-test-task-api.vercel.app/contact`, {
+    const response = await fetch(`https://uxflow-test-task-api-nine.vercel.app/contact`, {
       method: "POST",
       body: JSON.stringify({ firstName, lastName, phone, email, message }),
       headers: {

@@ -10,6 +10,8 @@ const Main = () => {
       <Review />
       <Selections />
       <Social />
+
+      {/* TEST */}
     </div>
   );
 };
